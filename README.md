@@ -40,7 +40,8 @@
 <br><br>
 
 <img src="https://imgur.com/bYERex4.png">
-<br><br>
+<br>
+
  - Bom, agora vamos falar sobre toda essa estrutura do nosso LKM na qual definimos todas essas variáveis no corpo do nosso LKM.
     - Definimos então as seguintes variáveis: <code> short, int, char e long </code>.
     <br><br>
