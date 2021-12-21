@@ -48,4 +48,7 @@
     🌟 - short/long: assim como long, ele é um modificador do tipo inteiro que altera o tamanho dos bytes.<br>
     🌟 - int: a variável do tipo inteiro é declarada como uma função que trabalha apenas com números.<br>
     🌟 - char: a variável do tipo char é declarada como uma função que trabalha apenas com caracteres.<br>
-    <br><br>
+    <br>
+    
+  - O que é a module_param()?
+    - Bom, ela é um macro que é importadas da biblioteca <code>linux/moduleparam.h</code> para configurar o mecanismo das variáveis que setamos em nosso código. A macro module_param() oferece suporte para 3 argumentos: o nome da nossa variável, seu tipo e permissão para os arquivos que correspondem ao sysfs. Variáveis do tipo inteiro podem ser assinados normalmente mas caso você desejar usar arrays de inteiros e strings, recomendo que procure por <code>module_param_array() e module_param_string()</code>.
