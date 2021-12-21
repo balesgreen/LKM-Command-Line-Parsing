@@ -8,3 +8,9 @@
   - Imprimindo as funções nos Registros do Kernel.
     - Entendendo para que servem as FLAGS de Registros.
     - Entendendo sobre as novas bibliotecas.
+<br>
+<br>
+
+# Compreendendo a estrutura do nosso LKM.
+
+<img src="https://imgur.com/oAcCbs8.png">
