@@ -59,3 +59,12 @@
  - O que é MODULE_PARM_DESC()?
     - Assim como a sua companheira <code>module_param()</code>, ela é uma macro que é usada para documentar argumentos que o módulo pode receber. Ela oferece suporte para 2 argumentos: o nome da nossa variável e uma string de formato livre.
     <br><br>
+
+<img src="https://imgur.com/lYvbnWa.png">
+<br>
+
+  - Temos então as nossas duas funções de inicialização e saída do nosso LKM. Essas funções são compostas por alguns argumentos que foram escritos dentro delas. Vamos analisar!
+   
+   <code>Possuímos então a nossa variável do tipo inteiro I que foi setada para trabalharmos a nossa função de intArray. Logo abaixo, temos a nossa função printk() que imprime mensagens no Registro do Kernel. E se você deseja entender sobre ela e qual a sua diferença para o printf(), clique <a href="https://github.com/MarktwainSTDLL/Linux-Kernel-Module-basic-explanation/">aqui</a>. Mas vamos dar continuidade ao nosso documento. Dentro do printk() existe uma flag chamada KERN_INFO. Essa flag, assim como as suas <a href="https://www.kernel.org/doc/html/latest/core-api/printk-basics.html">irmãs</a>, é uma função que permite registrar o nível de logs dentro do buffer de registros do kernel. No final de cada printk() contém o nome de uma variável, pois, isso permitirá que cada valor das variáveis sejam impressos no registro do kernel. Temos a função FOR que foi escrita para trazer dois tipos de valores: valor 0 e valor 1. O valor 0 sempre será o valor que foi passado por linha de comando e o valor 1 será o valor que foi setado na variável intArray. Confira no print abaixo.</code>
+<br><br>
+<img src="https://imgur.com/HEoxhpq.png">
