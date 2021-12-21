@@ -78,7 +78,8 @@
 <br><br>
   - E por fim, temos os nossos macros de inicialização e descarregamento do nosso LKM no Kernel que são importadas da biblioteca <code>linux/modules.h</code>.
 <br><br>
-# Como funciona o Makefile?
+
+<h1> Como funciona o Makefile? </h1>
 
 <br>
 <img src="https://imgur.com/mvSTHSO.png"><br>
