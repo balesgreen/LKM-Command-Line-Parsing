@@ -69,3 +69,17 @@
 <br><br>
 <code>Confira abaixo:</code><br>
 <img src="https://imgur.com/HEoxhpq.png">
+<br><br>
+
+  <code>Além da primeira função de inicialização, possuímos também a função de saída, ou seja, de descarregamento do buffer no Registros do Kernel. A mensagem aparecerá após digitarmos { rmmod CommandParsing.ko } e com isso a gente reconhece que nosso buffer do kernel foi descarregado.</code>.
+<br><br>
+
+<img src="https://imgur.com/p2RykqD.png">
+<br><br>
+  - E por fim, temos os nossos macros de inicialização e descarregamento do nosso LKM no Kernel que são importadas da biblioteca <code>linux/modules.h</code>.
+<br><br>
+# Como funciona o Makefile?
+
+<br>
+<img src="https://imgur.com/mvSTHSO.png"><br>
+  - 🔥 Possuimos o nosso arquivo de Makefile e irei explicar sobre como ele funciona mas basicamente a única função importante dele é o primeiro comando.
