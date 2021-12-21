@@ -83,4 +83,13 @@
 
 <br>
 <img src="https://imgur.com/mvSTHSO.png"><br>
-  - 🔥 Possuimos o nosso arquivo de Makefile e irei explicar sobre como ele funciona mas basicamente a única função importante dele é o primeiro comando.
+  - 🔥 Possuimos o nosso arquivo de Makefile e irei explicar sobre como ele funciona mas basicamente do ponto de vista técnico, a única função importante dele é o primeiro comando, já que as funções "all" e "clean" foram adicionados por pura conveniência. Sabendo disso, apenas digite o queridíssimo <code>make</code> para que seu LKM seja criado com sucesso.
+<br><br>
+  - 💥 Após a compilação de todo projeto, digite <code>insmod CommandParsing.ko</code> e logo afrente passe um parametro como por exemplo: <code>insmod CommandParsing.ko intArray=-1337 strings="Hello World!"</code>. E para que você descarregue seu buffer de registros do kernel, digite <code>rmmod CommandParsing.ko</code>.
+
+<br><br><br>
+
+Bom, isso é tudo pessoal! Vou continuar postando artigos sobre LKM e RK aqui em meu GitHub! Espero vocês no próximo Git!
+<br><br>
+
+~# Mark Disconnected... 
