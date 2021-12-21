@@ -52,3 +52,10 @@
     
   - O que é a module_param()?
     - Bom, ela é um macro que é importadas da biblioteca <code>linux/moduleparam.h</code> para configurar o mecanismo das variáveis que setamos em nosso código. A macro module_param() oferece suporte para 3 argumentos: o nome da nossa variável, seu tipo e permissão para os arquivos que correspondem ao sysfs. Variáveis do tipo inteiro podem ser assinados normalmente mas caso você desejar usar arrays de inteiros e strings, recomendo que procure por <code>module_param_array() e module_param_string()</code>.
+    <br><br>
+    - Vale ressaltar que arrays também são suportados mas a história é totalmente diferente do que era na versão do Kernel 2.4. Para que você possa controlar o número de parametros, é necessário que você passe um ponteiro por uma variável de contagem como terceiro parâmetro. A seu critério você pode ignorar a contagem e passar <b>NULL</b>.
+    <br><br>
+    
+ - O que é MODULE_PARM_DESC()?
+    - Assim como a sua companheira <code>module_param()</code>, ela é uma macro que é usada para documentar argumentos que o módulo pode receber. Ela oferece suporte para 2 argumentos: o nome da nossa variável e uma string de formato livre.
+    <br><br>
