@@ -21,7 +21,7 @@
   - Possuímos abaixo do nosso cabeçalho as funções de licenciamento e descrição. Como não expliquei no artigo passado, nesse artigo irei explicar para que elas servem e como vê-las em nosso LKM montado.
   <br><br>
   <code>Bom, podemos notar pela seguinte função após a montagem do nosso LKM: A partir da versão do Kernel 2.6, tiveram algumas mudanças na nomenclatura de arquivos que são compilados para trabalhar com Kernel. A antiga extensão .o que hoje é utilizada a .ko (Kernel Object) é uma forma mais fácil de distinguir os arquivos de objetos convencionais. O motivo pela qual isso ocorre se dá ao fato da existência de um arquivo chamado .modinfo onde são mantidas as informações adicionais sobre os módulos.
-  
+  <br>
   Podemos checar nosso LKM para sabermos qual é o tipo de informação dele. Digite o comando ( modinfo CommandParsing.ko ) e veja os resultados que são retornados em seu terminal.
  </code>
  <br>
