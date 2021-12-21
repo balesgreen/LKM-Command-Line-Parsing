@@ -45,7 +45,7 @@
  - Bom, agora vamos falar sobre toda essa estrutura do nosso LKM na qual definimos todas essas variáveis no corpo do nosso LKM.
     - Definimos então as seguintes variáveis: <code> short, int, char e long </code>.
     <br><br>
-    🌟 - short/long: assim como long, ele é um modificador do tipo inteiro que altera o tamanho dos bytes.
-    🌟 - int: a variável do tipo inteiro é declarada como uma função que trabalha apenas com números.
-    🌟 - char: a variável do tipo char é declarada como uma função que trabalha apenas com caracteres.
+    🌟 - short/long: assim como long, ele é um modificador do tipo inteiro que altera o tamanho dos bytes.<br>
+    🌟 - int: a variável do tipo inteiro é declarada como uma função que trabalha apenas com números.<br>
+    🌟 - char: a variável do tipo char é declarada como uma função que trabalha apenas com caracteres.<br>
     <br><br>
