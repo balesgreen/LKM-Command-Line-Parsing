@@ -14,3 +14,8 @@
 # Compreendendo a estrutura do nosso LKM.
 
 <img src="https://imgur.com/oAcCbs8.png">
+<br>
+  - Temos então todo nosso cabeçalho de <code>#include's</code> com algumas bibliotecas que expliquei no artigo passado que ensinei a construir um <a href="https://github.com/MarktwainSTDLL/Linux-Kernel-Module-basic-explanation/">LKM</a> simples. Nesse artigo estarei explicando sobre as novas bibliotecas que foram importadas.
+  <br>
+  - Possuímos abaixo do nosso cabeçalho as funções de licenciamento e descrição. Como não expliquei no artigo passado, nesse artigo irei explicar para que elas servem e como vê-las em nosso LKM montado.
+  <code>
